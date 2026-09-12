@@ -54,9 +54,18 @@
     font-size:clamp(64px, 13vw, 148px);
     letter-spacing:-0.02em;
     line-height:.86;
-    color:var(--ink);
-  }
-  .nameplate__title span{ color:var(--red); }
+    background: linear-gradient(180deg, #d63a20 0%, #e2601f 45%, #e8a33d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.nameplate__title span{
+    background: linear-gradient(180deg, #d63a20 0%, #e2601f 45%, #e8a33d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
   .nameplate__sub{
     font-size:clamp(15px,2.1vw,19px);
     color:var(--ink);
